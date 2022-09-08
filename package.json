@@ -1,0 +1,38 @@
+{
+  "name": "nostroid-with-pwa-plugin",
+  "version": "0.0.1",
+  "type": "module",
+  "packageManager": "pnpm@7.11.0",
+  "description": "nostroid-with-pwa-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/userquin/nostroid-with-pwa-plugin"
+  },
+  "bugs": "https://github.com/userquin/nostroid-with-pwa-plugin/issues",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint-fix": "nr lint --fix",
+    "postinstall": "esno scripts/patch.ts"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.26.3",
+    "@antfu/ni": "^0.18.0",
+    "@types/debug": "^4.1.7",
+    "@types/node": "^18.7.16",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "dexie": "^3.2.2",
+    "eslint": "^8.22.0",
+    "esno": "^0.16.3",
+    "nostr-tools": "^0.24.0",
+    "svelte": "^3.50.0",
+    "typescript": "^4.8.2",
+    "vite": "^3.1.0",
+    "vite-plugin-pwa": "file:vite-plugin-pwa-0.12.7.tgz"
+  },
+  "engines": {
+    "node": ">=16.14"
+  }
+}

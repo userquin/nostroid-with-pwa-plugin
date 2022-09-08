@@ -8,9 +8,6 @@ export default defineConfig({
   build: {
     sourcemap: process.env.SOURCE_MAP === 'true',
   },
-  optimizeDeps: {
-      include: ['readable-stream'],
-  },
   plugins: [
     VitePWA({
       mode: 'development',

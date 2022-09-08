@@ -6,7 +6,6 @@ import { relayPool } from 'nostr-tools'
 //
 declare let self: ServiceWorkerGlobalScope
 
-console.log(global)
 console.log(typeof relayPool)
 
 // self.__WB_MANIFEST is default injection point
